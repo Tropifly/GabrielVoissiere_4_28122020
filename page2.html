@@ -1,168 +1,103 @@
-<!doctype html>
-<html lang="Default">
+<!DOCTYPE html>
+
+<!-- langue -->
+<html lang="fr">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
-	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+	<!-- encodage -->
+	<meta charset="utf-8">
+	<!-- mots clés -->
+	<meta name="keywords"
+		content="agence design, agence de graphisme, UX, web designer, lyon, web design, devenir attractif">
+	<!-- description -->
+	<meta name="description"
+		content="La chouette agence est une entreprise qui vous aide à devenir attractif et visible sur internet">
+	<!-- responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="assets/favicon.jpg">
+	<!-- css -->
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/et-line.css">
+	<!-- titre de la page/onglet -->
+	<title>La chouette agence</title>
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/d55e797bfb.js" crossorigin="anonymous"></script>
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
 
-    
-<!-- Analytics -->
- 
-<!-- Analytics END -->
-    
+	<!-- Google analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-CZ289R9NP6"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-CZ289R9NP6');
+	</script>
+	<!-- Google Analytics -->
 </head>
+
 <body>
-<!-- Principal conteneur -->
-<div class="page-container">
-    
-<!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
-	<div class="container bloc-sm">
-		<nav class="navbar row">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-</div>
-<!-- bloc-0 END -->
 
-<!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
-					Parlons web design !
-				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
-					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-				</p>
-			</div>
+	<header>
+		<div class="boite">
+			<!-- logo de l'agence avec lien vers l'acceuil -->
+			<a class="logo" href="index.html"><img src="assets/la-chouette-agence.png" alt="logo de l'agence" /></a>
+			<!-- navigation -->
+			<nav>
+				<a href="index.html">Accueil</a>
+				<a href="page2.html">Nous contacter</a>
+			</nav>
 		</div>
-	</div>
-</div>
-<!-- bloc-6 END -->
+	</header>
 
-<!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
-					</div>
-					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
-					</div>
-					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
-					</div>
-					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
-				</form>
-			</div>
-			<div class="col-sm-6">
-				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
-			</div>
+	<main>
+
+		<!-- banniere -->
+		<div class="banniere-haut">
+			<!-- fond -->
+			<div class="fond"></div>
+			<!-- fin contenue banniere -->
+			<div class="fond2"></div>
+			<!-- fin contenue banniere -->
 		</div>
-	</div>
-</div>
-<!-- bloc-7 END -->
+		<!-- fin banniere -->
 
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
+		<!-- formulaire de contact -->
+		<form action="include/form_1.php">
+			<!-- nom -->
+			<label for="nom">Nom</label>
+			<input type="text" name="nom" id="nom">
+			<!-- mail -->
+			<label for="mail">Adresse mail</label>
+			<input type="email" name="mail" id="mail">
+			<!-- comment nous avez vous connu -->
+			<label for="comment_connu">Comment nous avez-vous connu ?</label>
+			<input type="text" name="comment_connu" id="comment_connu">
+			<!-- message -->
+			<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+			<textarea name="message" id="message" cols="60" rows="10"></textarea>
+		</form>
+		<!-- fin de formulaire -->
 
+	</main>
 
-<!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<p class="text-center white">
-					La chouette agence - Agence web basée à Lyon.<br>
-				</p>
-				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Footer - bloc-8 END -->
+	<!-- footer -->
+	<footer>
 
-</div>
-<!-- Principal conteneur END -->
-    
+		<p>La chouette agence - Agence web basée à Lyon</p>
+
+	</footer>
+	<!-- footer fin -->
 
 </body>
+
 </html>
