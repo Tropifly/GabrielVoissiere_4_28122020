@@ -90,7 +90,7 @@ header nav a
     width: 100%;
     height: 23vw;
     /* background */
-    background-image: url("../assets/la-chouette-agence-banniere.jpg");
+    background-image: url("../assets/la-chouette-agence-banniere.webp");
     background-size: contain;
     background-position: -40px -10px;
     background-attachment: fixed;
@@ -113,7 +113,7 @@ header nav a
     /* index */
     z-index: 2;
     /* texte */
-    color: #F3976C;
+    color: #b35d36;
 }
 
 .banniere-haut div h1
@@ -133,7 +133,7 @@ header nav a
     padding: 14px 30px;
     margin-top: 30px;
     /* background */
-    background-color: #F3976C;
+    background-color: #b35d36;
     /* border */
     border-radius: 100px;
 }
@@ -146,7 +146,7 @@ header nav a
     /* position */
     position: absolute;
     /* background */
-    background-image: url("../assets/texture-paper.png");
+    background-image: url("../assets/texture-paper.webp");
     /* opacité */
     opacity: 0.7;
     /* z-index */
@@ -268,7 +268,7 @@ header nav a
     width: 100%;
     height: auto;
     /* background */
-    background-image: url("../assets/image-de-presentation.bmp");
+    background-image: url("../assets/image-de-presentation.webp");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -288,7 +288,7 @@ header nav a
     /* position */
     position: absolute;
     /* background */
-    background-image: url("../assets/texture-paper.png");
+    background-image: url("../assets/texture-paper.webp");
     background-blend-mode: hue;
     color: black;
     /* taille */
@@ -343,7 +343,7 @@ header nav a
     /* marges */
     margin-bottom: 30px;
     /* couleur */
-    color: #F3976C; 
+    color: white; 
     /* texte */
     font-weight: 400;
 }
@@ -378,7 +378,7 @@ header nav a
     align-items: center;
     justify-content: center;
     /* background */
-    background-image: url("../assets/lines-h2-bg.png");
+    background-image: url("../assets/lines-h2-bg.webp");
 }
 
 .portfolio h2
@@ -499,7 +499,7 @@ header nav a
     width: 100%;
     height: 34vh;
     /* background */
-    background-image: url("../assets/la-chouette-agence-banniere.jpg");
+    background-image: url("../assets/la-chouette-agence-banniere.webp");
     background-repeat: no-repeat;
     background-position: center -260px;
     /* flex-box */
@@ -519,7 +519,7 @@ header nav a
     font-size: 1.6rem;
     font-weight: 500;
     /* couleur */
-    color: #F3976C; 
+    color: #b35d36; 
     /* z-index */
     z-index: 1;
 }
@@ -537,7 +537,7 @@ header nav a
     /* couleur */
     color: white; 
     /* background */
-    background-color: #F3976C;
+    background-color: #b35d36;
     /* bordures */
     border-radius: 100px;
     /* z-index */
@@ -547,7 +547,7 @@ header nav a
 .banniere-bas .fond6
 {
     /* background */
-    background-image: url("../assets/texture-paper.png");
+    background-image: url("../assets/texture-paper.webp");
     /* position */
     position: absolute;
     top: 0px;
@@ -565,7 +565,7 @@ footer
     width: 100%;
     height: auto;
     /* background */
-    background-color: #F3976C;
+    background-color: #b35d36;
     /* flex-box */
     display: flex;
     flex-direction: column;
@@ -642,11 +642,15 @@ footer .lien-partenaire
     margin-top: 10px;
 }
 
+footer .partenaire h4 {
+    color: white;
+}
+
 footer .lien-partenaire a
 {
     /* marges */
     margin: 5px 0px;
     /* texte */
-    color: rgb(93, 93, 93);
+    color: white;
     text-decoration: none;
 }
