@@ -601,6 +601,7 @@ footer .lien a
 {
     /* texte */
     text-decoration: none;
+    color: white;
 }
 
 footer .lien a i
