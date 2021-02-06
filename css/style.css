@@ -1,11 +1,9 @@
-html
-{
+html {
     font-size: 14px;
     overflow-x: hidden;
 }
 
-body
-{
+body {
     margin: 0px;
     width: 100vw;
     height: 100vh;
@@ -13,15 +11,19 @@ body
     font-family: 'Roboto', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6,p
-{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     /* marges */
     margin: 0px;
 }
 
 /* header */
-header
-{
+header {
     /* taille */
     width: 100%;
     height: 5vw;
@@ -32,8 +34,7 @@ header
     justify-content: center;
 }
 
-header .boite
-{
+header .boite {
     /* taille */
     width: 55%;
     height: 50%;
@@ -44,23 +45,20 @@ header .boite
     justify-content: space-between;
 }
 
-header .boite a
-{
+header .boite a {
     /* taille */
     width: auto;
     height: 100%;
 }
 
-header .boite a img
-{
+header .boite a img {
     /* taille */
     width: auto;
     height: 100%;
 }
 
 /* header navigation */
-header nav
-{
+header nav {
     /* taille */
     width: 18%;
     height: auto;
@@ -71,8 +69,7 @@ header nav
     justify-content: space-between;
 }
 
-header nav a 
-{
+header nav a {
     /* couleur */
     color: black;
     /* texte */
@@ -85,8 +82,7 @@ header nav a
 
 /* banniere page contact */
 /* banniere */
-.banniere-haut-contact
-{
+.banniere-haut-contact {
     /* taille */
     width: 100%;
     height: 16vw;
@@ -104,8 +100,7 @@ header nav a
     position: relative;
 }
 
-.banniere-haut-contact .fond
-{
+.banniere-haut-contact .fond {
     /* taille */
     width: 100%;
     height: 100%;
@@ -119,8 +114,7 @@ header nav a
     z-index: 0;
 }
 
-.banniere-haut-contact .fond2
-{
+.banniere-haut-contact .fond2 {
 
     /* taille */
     width: 100%;
@@ -135,8 +129,7 @@ header nav a
     z-index: 3;
 }
 
-#main-contact
-{
+#main-contact {
     /* taille */
     width: 100%;
     height: auto;
@@ -149,8 +142,7 @@ header nav a
 
 /* formulaire page contact */
 
-form
-{
+form {
     /* taille */
     width: 20%;
     height: auto;
@@ -163,8 +155,7 @@ form
     margin-top: 25px;
 }
 
-form input
-{
+form input {
     /* taille */
     width: 100%;
     height: auto;
@@ -172,8 +163,7 @@ form input
     outline: none;
 }
 
-form textarea
-{
+form textarea {
     /* taille */
     width: 100%;
     height: auto;
@@ -183,8 +173,7 @@ form textarea
     outline: none;
 }
 
-form label
-{
+form label {
     /* marges */
     margin-top: 15px;
     margin-bottom: 2px;
@@ -194,8 +183,7 @@ form label
 }
 
 /* banniere */
-.banniere-haut
-{
+.banniere-haut {
     /* taille */
     width: 100%;
     height: 23vw;
@@ -213,8 +201,7 @@ form label
     position: relative;
 }
 
-.banniere-haut div
-{
+.banniere-haut div {
     /* flex-box */
     display: flex;
     flex-direction: column;
@@ -224,15 +211,13 @@ form label
     z-index: 2;
 }
 
-.banniere-haut div h1
-{
+.banniere-haut div h1 {
     /* texte */
     color: black;
     font-weight: 600;
 }
 
-.banniere-haut div a
-{
+.banniere-haut div a {
     /* texte */
     color: black;
     text-decoration: none;
@@ -247,8 +232,7 @@ form label
     border-radius: 100px;
 }
 
-.banniere-haut .fond
-{
+.banniere-haut .fond {
     /* taille */
     width: 100%;
     height: 100%;
@@ -262,15 +246,13 @@ form label
     z-index: 0;
 }
 
-.banniere-haut div img
-{
+.banniere-haut div img {
     width: 100px;
     height: auto;
 }
 
 /* presentation */
-.presentation
-{
+.presentation {
     /* taille */
     width: 100%;
     height: auto;
@@ -283,94 +265,85 @@ form label
     position: relative;
 }
 
-.presentation .domaine
-{
-   /* taille */
-   width: auto;
-   height: auto;
-   /* flex-box */
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
+.presentation .domaine {
+    /* taille */
+    width: auto;
+    height: auto;
+    /* flex-box */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.presentation .domaine div
-{
-   /* taille */
-   width: 100%;
-   height: 100%;
-   /* flex-box */
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+.presentation .domaine div {
+    /* taille */
+    width: 100%;
+    height: 100%;
+    /* flex-box */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.presentation .domaine div p
-{
-   /* texte */
-   text-align: center;
-   font-size: 11px;
-   /* marges */
-   margin-top: 20px;
+.presentation .domaine div p {
+    /* texte */
+    text-align: center;
+    font-size: 11px;
+    /* marges */
+    margin-top: 20px;
 }
 
-.presentation h2
-{
-   /* texte */
-   text-align: center;
-   font-weight: 400;
-   font-size: 1.7rem;
-   /* couleur */
-   color: rgb(93, 93, 93);
-   /* marge */
-   margin-top: 60px;
-   margin-bottom: 40px;
+.presentation h2 {
+    /* texte */
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.7rem;
+    /* couleur */
+    color: rgb(93, 93, 93);
+    /* marge */
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
-.presentation .domaine div .icon-lg
-{
+.presentation .domaine div .icon-lg {
     /* taille */
     font-size: 60px;
     /* marges */
     margin-bottom: 20px;
 }
 
-.presentation .citation
-{
-   /* marge */
-   margin-top: 60px;
-   /* flex-box */
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+.presentation .citation {
+    /* marge */
+    margin-top: 60px;
+    /* flex-box */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.presentation .citation h4
-{
+.presentation .citation h4 {
     /* texte */
-   text-align: center;
-   font-weight: 500;
-   font-size: 1.5rem;
-   font-style: italic;
-   /* couleur */
-   color: rgb(93, 93, 93);
-   /* marges */
-   margin-bottom: 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-style: italic;
+    /* couleur */
+    color: rgb(93, 93, 93);
+    /* marges */
+    margin-bottom: 5px;
 }
 
-.presentation .citation p
-{
-   /* marges */
-   margin-bottom: 60px;
-   /* couleur */
-   color: rgb(93, 93, 93);
+.presentation .citation p {
+    /* marges */
+    margin-bottom: 60px;
+    /* couleur */
+    color: rgb(93, 93, 93);
 }
 
-.explication
-{
+.explication {
     /* position */
     position: relative;
     /* taille */
@@ -392,8 +365,7 @@ form label
     overflow: hidden;
 }
 
-.explication .fond2
-{
+.explication .fond2 {
     /* position */
     position: absolute;
     /* background */
@@ -409,8 +381,7 @@ form label
     opacity: 0.7;
 }
 
-.explication div
-{
+.explication div {
     /* taille */
     width: 30%;
     height: auto;
@@ -430,8 +401,7 @@ form label
     overflow: hidden;
 }
 
-.explication div .fond3
-{
+.explication div .fond3 {
     /* position */
     position: absolute;
     top: 0px;
@@ -447,18 +417,16 @@ form label
     opacity: 0.5;
 }
 
-.explication h2
-{
+.explication h2 {
     /* marges */
     margin-bottom: 30px;
     /* couleur */
-    color: black; 
+    color: black;
     /* texte */
     font-weight: 400;
 }
 
-.explication p 
-{
+.explication p {
     /* marge */
     margin-bottom: 20px;
     /* texte */
@@ -467,8 +435,7 @@ form label
     font-size: 1.2rem;
 }
 
-.explication a
-{
+.explication a {
     /* texte */
     color: black;
     text-decoration: underline;
@@ -476,8 +443,7 @@ form label
     font-size: 1.4rem;
 }
 
-.portfolio 
-{
+.portfolio {
     /* taille */
     width: 100%;
     height: 100%;
@@ -490,8 +456,7 @@ form label
     background-image: url("../assets/lines-h2-bg.webp");
 }
 
-.portfolio h2
-{
+.portfolio h2 {
     /* marge */
     margin-top: 100px;
     /* texte */
@@ -500,8 +465,7 @@ form label
     color: rgb(93, 93, 93);
 }
 
-.portfolio .grille
-{
+.portfolio .grille {
     /* marge */
     margin-top: 50px;
     padding-bottom: 20vh;
@@ -517,8 +481,7 @@ form label
     text-align: center;
 }
 
-.portfolio .grille h3
-{
+.portfolio .grille h3 {
     /* texte */
     font-weight: 500;
     text-transform: uppercase;
@@ -526,16 +489,14 @@ form label
     margin-top: 10px;
 }
 
-.portfolio .grille p
-{
+.portfolio .grille p {
     /* texte */
     font-size: 1rem;
     /* marges */
     margin-top: 10px;
 }
 
-.portfolio .grille .boite2
-{
+.portfolio .grille .boite2 {
     /* taille */
     width: 100%;
     height: 70%;
@@ -543,16 +504,14 @@ form label
     position: relative;
 }
 
-.portfolio .grille img
-{
+.portfolio .grille img {
     /* taille */
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.portfolio .grille .fond4
-{
+.portfolio .grille .fond4 {
     /* background */
     background-color: black;
     /* position */
@@ -572,8 +531,7 @@ form label
     transition: 300ms ease-in-out;
 }
 
-.portfolio .grille .fond4 .rond
-{
+.portfolio .grille .fond4 .rond {
     /* background */
     background-color: black;
     top: 0px;
@@ -584,8 +542,7 @@ form label
     border-radius: 100px;
 }
 
-.portfolio .grille .fond4 i
-{
+.portfolio .grille .fond4 i {
     /* position */
     position: absolute;
     left: 50%;
@@ -594,16 +551,14 @@ form label
     font-size: 2rem;
 }
 
-.portfolio .grille div:hover .fond4
-{
+.portfolio .grille div:hover .fond4 {
     /* curseur */
     cursor: pointer;
     /* opacité */
     opacity: 0.5;
 }
 
-.banniere-bas
-{
+.banniere-bas {
     /* taille */
     width: 100%;
     height: 34vh;
@@ -622,19 +577,17 @@ form label
     position: relative;
 }
 
-.banniere-bas h3
-{
+.banniere-bas h3 {
     /* texte */
     font-size: 1.6rem;
     font-weight: 500;
     /* couleur */
-    color: black; 
+    color: black;
     /* z-index */
     z-index: 1;
 }
 
-.banniere-bas a
-{
+.banniere-bas a {
     /* marges */
     margin-top: 4vh;
     padding: 12px 25px;
@@ -644,7 +597,7 @@ form label
     font-size: 1.3rem;
     font-weight: 500;
     /* couleur */
-    color: black; 
+    color: black;
     /* background */
     background-color: #F3976C;
     /* bordures */
@@ -653,8 +606,7 @@ form label
     z-index: 1;
 }
 
-.banniere-bas .fond6
-{
+.banniere-bas .fond6 {
     /* background */
     background-image: url("../assets/texture-paper.webp");
     /* position */
@@ -668,8 +620,7 @@ form label
     opacity: 0.7;
 }
 
-#footer-index
-{
+#footer-index {
     /* taille */
     width: 100%;
     height: auto;
@@ -682,8 +633,7 @@ form label
     justify-content: center;
 }
 
-#footer-index p
-{
+#footer-index p {
     /* couleur */
     color: black;
     /* texte */
@@ -692,8 +642,7 @@ form label
     margin-top: 35px;
 }
 
-#footer-index .lien
-{
+#footer-index .lien {
     /* taille */
     width: 20%;
     height: auto;
@@ -706,15 +655,13 @@ form label
     justify-content: space-between;
 }
 
-#footer-index .lien a
-{
+#footer-index .lien a {
     /* texte */
     text-decoration: none;
     color: black;
 }
 
-#footer-index .lien a i
-{
+#footer-index .lien a i {
     /* taille */
     font-size: 2.2rem;
     /* couleur */
@@ -723,14 +670,12 @@ form label
     margin-top: 10px;
 }
 
-#footer-index .lien a i:hover
-{
+#footer-index .lien a i:hover {
     /* couleur */
     color: white;
 }
 
-#footer-index .partenaire
-{
+#footer-index .partenaire {
     /* flex-box */
     display: flex;
     flex-direction: column;
@@ -741,8 +686,7 @@ form label
     margin-top: 25px;
 }
 
-#footer-index .lien-partenaire
-{
+#footer-index .lien-partenaire {
     /* flex-box */
     display: flex;
     flex-direction: column;
@@ -756,8 +700,7 @@ form label
     color: black;
 }
 
-#footer-index .lien-partenaire a
-{
+#footer-index .lien-partenaire a {
     /* marges */
     margin: 5px 0px;
     /* texte */
@@ -765,8 +708,7 @@ form label
     text-decoration: none;
 }
 
-#footer-contact
-{
+#footer-contact {
     /* taille */
     width: 100%;
     height: auto;
@@ -779,12 +721,229 @@ form label
     justify-content: center;
 }
 
-#footer-contact
-{
+#footer-contact {
     /* couleur */
     color: black;
     /* texte */
     font-size: 1.2rem;
     /* marges */
     padding: 30px 0px;
+}
+
+/* responsive desktop */
+@media screen and (max-width: 1760px) {
+    header nav {
+        width: 25%;
+    }
+
+    .portfolio .grille {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    header nav {
+        width: 35%;
+    }
+
+    .explication div {
+        width: 40%;
+    }
+
+    .portfolio .grille {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .banniere-haut div img {
+        width: 70px;
+    }
+
+    .banniere-haut div h1 {
+        font-size: 1.5rem;
+    }
+
+    .banniere-haut div a {
+        font-size: 1rem;
+        padding: 10px 26px;
+    }
+
+    .portfolio .grille {
+        width: 70%;
+    }
+}
+
+/* responsive tablette */
+@media screen and (max-width: 1024px) {
+    .explication div {
+        width: 60%;
+    }
+
+    .portfolio .grille {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    header nav {
+        width: 45%;
+    }
+
+    .explication div {
+        width: 60%;
+    }
+
+    .portfolio .grille {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .presentation h2 {
+        font-size: 1.5rem;
+    }
+
+    .presentation .domaine div .icon-lg {
+        font-size: 40px;
+    }
+
+    .presentation .domaine div p {
+        font-size: 0, 5rem;
+    }
+
+    .presentation .citation h4 {
+        font-size: 1.2rem;
+    }
+}
+
+/* @media screen and (max-width: 540px) {
+    header {
+        height: 10vh;
+    }
+
+    header .boite {
+        width: 90%;
+    }
+
+    .banniere-haut {
+        height: 28vh;
+    }
+
+    .presentation h2 {
+        font-size: 1.4rem;
+        margin-top: 40px;
+    }
+} */
+
+@media screen and (max-width: 540px) {
+    header {
+        height: 10vh;
+    }
+
+    header .boite {
+        width: auto;
+        height: 60%;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .banniere-haut {
+        height: 25vh;
+    }
+
+    .presentation h2 {
+        font-size: 1.4rem;
+        margin-top: 40px;
+    }
+
+    .presentation .domaine {
+        flex-direction: column;
+    }
+
+    .presentation .domaine div .icon-lg {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+
+    .presentation .domaine div h3 {
+        font-size: 1.8rem;
+    }
+
+    .presentation .domaine div p {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 70%;
+    }
+
+    .presentation .citation {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .presentation .citation h4 {
+        font-size: 0.9rem;
+    }
+
+    .presentation .citation p {
+        font-size: 0.8rem;
+    }
+
+    .explication h2 {
+        font-size: 1.2rem;
+    }
+
+    .explication div {
+        width: 70%;
+        padding: 0px 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .portfolio h2 {
+        margin-top: 50px;
+    }
+
+    .portfolio .grille {
+        grid-template-rows: auto;
+        grid-template-columns: 1fr;
+        padding-bottom: 50px;
+    }
+
+    .banniere-bas {
+        height: 30vh;
+    }
+
+    .banniere-bas h3 {
+        font-size: 1.3rem;
+    }
+
+    #footer-index .lien {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .banniere-haut {
+        height: 40vh;
+    }
+
+    .presentation h2 {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .portfolio .grille h3 {
+        font-size: 1rem;
+    }
+
+    .portfolio .grille p {
+        font-size: 0.8rem;
+    }
+
+    #footer-index p {
+        font-size: 0.9rem;
+    }
 }
