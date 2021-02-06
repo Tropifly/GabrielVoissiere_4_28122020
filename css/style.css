@@ -783,6 +783,10 @@ form label {
     .portfolio .grille {
         width: 70%;
     }
+
+    form {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 925px) {
@@ -816,25 +820,6 @@ form label {
         font-size: 1.2rem;
     }
 }
-
-/* @media screen and (max-width: 540px) {
-    header {
-        height: 10vh;
-    }
-
-    header .boite {
-        width: 90%;
-    }
-
-    .banniere-haut {
-        height: 28vh;
-    }
-
-    .presentation h2 {
-        font-size: 1.4rem;
-        margin-top: 40px;
-    }
-} */
 
 @media screen and (max-width: 540px) {
     header {
