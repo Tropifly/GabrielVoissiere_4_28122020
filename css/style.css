@@ -565,7 +565,7 @@ footer
     width: 100%;
     height: auto;
     /* background */
-    background-color: #b35d36;
+    background-color: #F3976C;
     /* flex-box */
     display: flex;
     flex-direction: column;
@@ -576,7 +576,7 @@ footer
 footer p
 {
     /* couleur */
-    color: white;
+    color: black;
     /* texte */
     font-size: 1.2rem;
     /* marges */
