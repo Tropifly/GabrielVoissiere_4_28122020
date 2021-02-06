@@ -83,6 +83,116 @@ header nav a
 
 /* main */
 
+/* banniere page contact */
+/* banniere */
+.banniere-haut-contact
+{
+    /* taille */
+    width: 100%;
+    height: 16vw;
+    /* background */
+    background-color: #F3976C;
+    background-size: contain;
+    background-position: -40px -10px;
+    background-attachment: fixed;
+    /* flex-box */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* position */
+    position: relative;
+}
+
+.banniere-haut-contact .fond
+{
+    /* taille */
+    width: 100%;
+    height: 100%;
+    /* position */
+    position: absolute;
+    /* background */
+    background-image: url("../assets/texture-paper.png");
+    /* opacité */
+    opacity: 1;
+    /* z-index */
+    z-index: 0;
+}
+
+.banniere-haut-contact .fond2
+{
+
+    /* taille */
+    width: 100%;
+    height: 100%;
+    /* position */
+    position: absolute;
+    /* background */
+    background-image: url("../assets/dots-bg.png");
+    /* opacité */
+    opacity: 1;
+    /* z-index */
+    z-index: 3;
+}
+
+#main-contact
+{
+    /* taille */
+    width: 100%;
+    height: auto;
+    /* flex-box */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* formulaire page contact */
+
+form
+{
+    /* taille */
+    width: 20%;
+    height: auto;
+    /* flex-box */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* marges */
+    margin-top: 25px;
+}
+
+form input
+{
+    /* taille */
+    width: 100%;
+    height: auto;
+    /* outline */
+    outline: none;
+}
+
+form textarea
+{
+    /* taille */
+    width: 100%;
+    height: auto;
+    /* marges */
+    margin-bottom: 7vh;
+    /* outline */
+    outline: none;
+}
+
+form label
+{
+    /* marges */
+    margin-top: 15px;
+    margin-bottom: 2px;
+    /* texte */
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
 /* banniere */
 .banniere-haut
 {
@@ -112,20 +222,19 @@ header nav a
     justify-content: center;
     /* index */
     z-index: 2;
-    /* texte */
-    color: #b35d36;
 }
 
 .banniere-haut div h1
 {
     /* texte */
-    font-weight: 400;
+    color: black;
+    font-weight: 600;
 }
 
 .banniere-haut div a
 {
     /* texte */
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: 500;
     font-size: 1.25rem;
@@ -133,7 +242,7 @@ header nav a
     padding: 14px 30px;
     margin-top: 30px;
     /* background */
-    background-color: #b35d36;
+    background-color: #F3976C;
     /* border */
     border-radius: 100px;
 }
@@ -343,7 +452,7 @@ header nav a
     /* marges */
     margin-bottom: 30px;
     /* couleur */
-    color: white; 
+    color: black; 
     /* texte */
     font-weight: 400;
 }
@@ -353,18 +462,18 @@ header nav a
     /* marge */
     margin-bottom: 20px;
     /* texte */
-    font-weight: 300;
-    color: white;
-    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    font-size: 1.2rem;
 }
 
 .explication a
 {
     /* texte */
-    color: white;
+    color: black;
     text-decoration: underline;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .portfolio 
@@ -466,7 +575,7 @@ header nav a
 .portfolio .grille .fond4 .rond
 {
     /* background */
-    background-color: white;
+    background-color: black;
     top: 0px;
     /* taille */
     width: 80px;
@@ -519,7 +628,7 @@ header nav a
     font-size: 1.6rem;
     font-weight: 500;
     /* couleur */
-    color: #b35d36; 
+    color: black; 
     /* z-index */
     z-index: 1;
 }
@@ -535,9 +644,9 @@ header nav a
     font-size: 1.3rem;
     font-weight: 500;
     /* couleur */
-    color: white; 
+    color: black; 
     /* background */
-    background-color: #b35d36;
+    background-color: #F3976C;
     /* bordures */
     border-radius: 100px;
     /* z-index */
@@ -559,7 +668,7 @@ header nav a
     opacity: 0.7;
 }
 
-footer
+#footer-index
 {
     /* taille */
     width: 100%;
@@ -573,7 +682,7 @@ footer
     justify-content: center;
 }
 
-footer p
+#footer-index p
 {
     /* couleur */
     color: black;
@@ -583,7 +692,7 @@ footer p
     margin-top: 35px;
 }
 
-footer .lien
+#footer-index .lien
 {
     /* taille */
     width: 20%;
@@ -597,14 +706,14 @@ footer .lien
     justify-content: space-between;
 }
 
-footer .lien a
+#footer-index .lien a
 {
     /* texte */
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
-footer .lien a i
+#footer-index .lien a i
 {
     /* taille */
     font-size: 2.2rem;
@@ -614,13 +723,13 @@ footer .lien a i
     margin-top: 10px;
 }
 
-footer .lien a i:hover
+#footer-index .lien a i:hover
 {
     /* couleur */
     color: white;
 }
 
-footer .partenaire
+#footer-index .partenaire
 {
     /* flex-box */
     display: flex;
@@ -632,7 +741,7 @@ footer .partenaire
     margin-top: 25px;
 }
 
-footer .lien-partenaire
+#footer-index .lien-partenaire
 {
     /* flex-box */
     display: flex;
@@ -643,15 +752,39 @@ footer .lien-partenaire
     margin-top: 10px;
 }
 
-footer .partenaire h4 {
-    color: white;
+#footer-index .partenaire h4 {
+    color: black;
 }
 
-footer .lien-partenaire a
+#footer-index .lien-partenaire a
 {
     /* marges */
     margin: 5px 0px;
     /* texte */
-    color: white;
+    color: black;
     text-decoration: none;
+}
+
+#footer-contact
+{
+    /* taille */
+    width: 100%;
+    height: auto;
+    /* background */
+    background-color: #F3976C;
+    /* flex-box */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-contact
+{
+    /* couleur */
+    color: black;
+    /* texte */
+    font-size: 1.2rem;
+    /* marges */
+    padding: 30px 0px;
 }

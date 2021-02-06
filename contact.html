@@ -16,9 +16,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/favicon.jpg">
+	<!-- preload -->
+	<link rel="preload" href="css/style.css" as="style">
+	<link rel="preload" href="fonts/et-line.woff" as="font" type="font/woff" crossorigin>
 	<!-- css -->
-	<link rel="stylesheet" href="css/contact.css">
-	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/et-line.css">
 	<!-- titre de la page/onglet -->
 	<title>La chouette agence</title>
@@ -50,7 +52,7 @@
 	<header>
 		<div class="boite">
 			<!-- logo de l'agence avec lien vers l'acceuil -->
-			<a class="logo" href="index.html"><img src="assets/la-chouette-agence.png" alt="logo de l'agence" /></a>
+			<a class="logo" href="index.html"><img src="assets/la-chouette-agence.webp" alt="logo de l'agence" /></a>
 			<!-- navigation -->
 			<nav>
 				<a href="index.html">Accueil</a>
@@ -59,10 +61,10 @@
 		</div>
 	</header>
 
-	<main>
+	<main id="main-contact">
 
 		<!-- banniere -->
-		<div class="banniere-haut">
+		<div class="banniere-haut-contact">
 			<!-- fond -->
 			<div class="fond"></div>
 			<!-- fin contenue banniere -->
@@ -91,7 +93,7 @@
 	</main>
 
 	<!-- footer -->
-	<footer>
+	<footer id="footer-contact">
 
 		<p>La chouette agence - Agence web basée à Lyon</p>
 
